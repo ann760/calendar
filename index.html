@@ -28,23 +28,55 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+
+    <div class="container-fluid">
       <!-- Timeblocks go here -->
-      <main class="col-12 col-md-12 d-flex flex-column">
-          <div class="m-8 row "> 
-            <div class="col-12 col-md-6 col-xl-3 mb-3 bg-dark">
-            </div>
-            <div class="col-12 col-md-6 col-xl-3 mb-3 bg-dark">
-            </div>
-            <div class="col-12 col-md-6 col-xl-3 mb-3 bg-dark">
-            </div>
-            <div class="col-12 col-md-6 col-xl-3 mb-3 bg-dark">
-            </div>
-          </div>
+      <div class="row  justify-content-md-center">
+        <div class="col d-flex mb-3 hour float-center">
+            <ul id="time" class="hour"></ul>
+        </div> 
+        <div id="textArea" class="col-10 textarea past"> text    
+        </div>
+        <button class ="col saveBtn i:hover">Save
+        </button>           
+      </div>
+
+      <div class="row  justify-content-md-center">
+        <div class="col d-flex mb-3 hour float-center"> 
+           <ul id="time" class="hour"></ul> 10:0
+        </div> 
+        <div id="textArea" class="col-sm-10 textarea past">  text             
+        </div>
+          <button class ="col saveBtn saveBtn i:hover">Save
+            </button>           
+      </div>
+
+      <div class="row  justify-content-md-center">
+        <div id="time" class="col d-flex mb-3 hour"> 
+           <ul id="time" class="hour"></ul> --> 
+        </div> 
+        <div class="col-sm-10 textarea past">               
+        </div>
+          <button class ="col saveBtn saveBtn i:hover">Save
+            </button>           
+      </div>
+
+      <div class="row  justify-content-md-center">
+        <div id="time" class="col d-flex mb-3 hour"> 
+           <ul id="time" class="hour"></ul> --> 
+        </div> 
+        <div class="col-sm-10 textarea past">               
+        </div>
+          <button class ="col saveBtn saveBtn i:hover">Save
+            </button>           
+      </div>
+            
+            
 
 
 
-      </Main>
+
+    
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
