@@ -13,7 +13,7 @@ A calendar to schedule the day
 ## Website
 https://ann760.github.io/calendar/
 
-![calendar](./assets/img/)
+![calendar](./assets/img/calendar.jpg)
 
 ## Author
 Ann-Marie Orozco
